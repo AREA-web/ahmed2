@@ -1,3 +1,13 @@
+
+$(".nav-link").click( function(){
+  $(".active").removeClass("active");
+   $(this).addClass("active");
+   $(".bounceInLeft").removeClass("bounceInLeft");
+   $(".menus").addClass("bounceInLeft")
+   $(".menus:first-child").fadeToggle();
+   $(".menus:first-child").fadeToggle();
+ });
+
 (function ($) {
 "use strict";
 /* magnificPopup video view */
