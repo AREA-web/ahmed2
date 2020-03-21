@@ -75,6 +75,8 @@ var xx = 0 ;
     }
     setInterval(clock, 1000);
 
+$('a[href=\'http://area.compiler@gmail.com\']').attr("target","_blank");
+
 $('a[href=\'http://area.compiler@gmail.com\']').click(function () {
        window.open('mailto:area.compiler@gmail.com?subject=subject&body=body');
     });
